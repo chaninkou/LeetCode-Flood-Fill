@@ -1,7 +1,9 @@
 package leetcode733;
 
 public class FillUpNewColorFunction {
+	// dfs solution, o(N) both time and space
     public int[][] floodFill(int[][] image, int i, int j, int newColor) {
+    	// If already new color, just return
         if(image[i][j] == newColor){
             return image;
         }

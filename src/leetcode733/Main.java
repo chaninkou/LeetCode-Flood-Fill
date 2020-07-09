@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		int[][] image = {{1,0,1},{1,1,0},{1,0,1}};
 		
-		int newColor = 2;
+		int newColor = 3;
 		
 		System.out.println("Input: " + Arrays.deepToString(image));
 		
